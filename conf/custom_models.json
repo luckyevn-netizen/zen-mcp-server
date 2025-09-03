@@ -246,7 +246,7 @@
       "model_name": "openai/gpt-5-chat",
       "aliases": ["gpt5-chat", "gpt-5-chat"],
       "context_window": 128000,
-      "max_output_tokens": 32000,
+      "max_output_tokens": 16384,
       "supports_extended_thinking": true,
       "supports_json_mode": true,
       "supports_function_calling": true,
