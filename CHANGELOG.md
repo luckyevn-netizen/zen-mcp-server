@@ -2,6 +2,30 @@
 
 <!-- version list -->
 
+## v5.12.0 (2025-09-07)
+
+### Bug Fixes
+
+- Correct GPT-5-chat max_output_tokens specification
+  ([`4ce5f6b`](https://github.com/luckyevn-netizen/zen-mcp-server/commit/4ce5f6bfe823a02c732d2d4179005f48440a424f))
+
+- Correct GPT-5-chat max_output_tokens specification
+  ([`3ab06d8`](https://github.com/luckyevn-netizen/zen-mcp-server/commit/3ab06d8469b8bd2973ffdaca9ecd4bb440a7926e))
+
+### Chores
+
+- Sync version to config.py [skip ci]
+  ([`1209064`](https://github.com/luckyevn-netizen/zen-mcp-server/commit/12090646ee83f2368311d595d87ae947e46ddacd))
+
+- Sync version to config.py [skip ci]
+  ([`a13fbcf`](https://github.com/luckyevn-netizen/zen-mcp-server/commit/a13fbcfbc83754c51c2620ceb5d73a0737967822))
+
+### Features
+
+- Add OpenRouter support for GPT-5 model series
+  ([`79fd682`](https://github.com/luckyevn-netizen/zen-mcp-server/commit/79fd6822e15ee2ce508d02b2b81da710d93d3a2f))
+
+
 ## v5.11.0 (2025-08-26)
 
 ### Chores
