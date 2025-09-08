@@ -16,7 +16,7 @@ import os
 # Semantic versioning: MAJOR.MINOR.PATCH
 __version__ = "5.12.0"
 # Last update date in ISO format
-__updated__ = "2025-09-07"
+__updated__ = "2025-09-08"
 # Primary maintainer
 __author__ = "Fahad Gilani"
 
