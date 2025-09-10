@@ -763,6 +763,7 @@ setup_venv() {
     fi
 
     # Get venv Python path based on platform
+    # shellcheck disable=SC2155
     local os_type=$(detect_os)
     case "$os_type" in
         windows)
@@ -786,6 +787,7 @@ setup_venv() {
         print_warning "pip not found in virtual environment, installing..."
 
         # On Linux, try to install system packages if pip is missing
+        # shellcheck disable=SC2155
         local os_type=$(detect_os)
         if [[ "$os_type" == "linux" || "$os_type" == "wsl" ]]; then
             if try_install_system_packages "$python_cmd"; then
@@ -2153,4 +2155,6 @@ main() {
 # ----------------------------------------------------------------------------
 
 # Run main function with all arguments
-main "$@"
+main "@"
+
+
